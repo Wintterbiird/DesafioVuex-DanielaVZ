@@ -24,7 +24,7 @@ export default {
   <div class="tienda">
     <h1>Tienda 32 Bits</h1>
     <h2>Lista de juegos</h2>
-    <Tabla :juegos="juegos" @incrementar="incrementar" @disminuir="disminuir"/>
+    <Tabla @incrementar="incrementar" @disminuir="disminuir"/>
   </div>
 </template>
 
